@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main-body {
+    height: 100vh;
+    background: url("../public/images/backdrop.jpg") no-repeat center
+        center/cover;
+}
+
+.chat-scroll::-webkit-scrollbar {
+    width: 8px;
+}
+
+.chat-scroll::-webkit-scrollbar-track {
+    border-radius: 8px;
+    background-color: rgb(14, 30, 51);
+}
+
+.chat-scroll::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background: rgb(59, 240, 246);
+}
