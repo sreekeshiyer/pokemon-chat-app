@@ -1,34 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Pokemon Chat App
 
-## Getting Started
+I wanted to create a simple full stack application with Next.js, TailwindCSS and Supabase and I wanted to cover as many Supabase Services as possible. 
+Here's what this app uses:
+- Supabase Auth and Magic Link Password-less Authentication
+- RLS (Row Level Security)
+- Postgres Function
+- Trigger
+- Supabase Realtime
+- PostgREST API
+- Supabase Storage
 
-First, run the development server:
+### Sign Up with just a username and your email
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+You'll get a signup confirmation email with a link, following which will give you chat access.
+![image](https://user-images.githubusercontent.com/67017933/148641665-71e05b82-8ed2-4f03-b259-94eadc276389.png)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Sign In with Magic Link
+![image](https://user-images.githubusercontent.com/67017933/148641704-812a2993-2db3-4f26-9a60-e678786fcc58.png)
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### Chat
+The floor is yours'! You get chat features with a random Pokemon Avatar bound to your user ID.
+![image](https://user-images.githubusercontent.com/67017933/148641763-91d729b3-0249-4cf2-bad2-7011900fcd28.png)
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+#### Changing the Avatar
+Just Click on your current Avatar and you'll get a new random avatar. <br>
+![image](https://user-images.githubusercontent.com/67017933/148641812-5f478168-6251-4a89-a2c7-931a9dfe257e.png)
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+### A list of Avatars (for the curious Pokemon fans)
+![image](https://user-images.githubusercontent.com/67017933/148641859-36fe2022-609e-4546-a63e-9c06ca1b6910.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+If you liked the app, do share it with your friends. Thank you :)
